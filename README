@@ -1,0 +1,8 @@
+Simple Simple Simple web crawler implementation.
+
+Uses Redis for persistence.
+Uses Beautiful Soup and Requests for getting data and parsing data.
+
+Need to figure out classification of pages.
+Ranking pages.
+Mapping search queries to content.
