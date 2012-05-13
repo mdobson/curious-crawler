@@ -3,7 +3,7 @@ from database import *
 
 class DocumentModel:
 	def __init__(self):
-		self.database = Database('mysql://root:dallas55@127.0.0.1:3306/crawler_persist')
+		self.database = Database('mysql://uname:pword@127.0.0.1:3306/crawler_persist')
 		self.schema = Table('documents', self.database.metadata,
 				Column('Id', Integer, primary_key=True),
 				Column('Url', String(300)),
